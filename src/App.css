@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Markazi+Text:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Markazi-Text:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Markazi+Text:wght@400;500;600;700&display=swap");
+
+
+.App nav .container-fluid .navbar-brand img {
+  height: 50px;
+}
+
+.App nav {
+    background-color: #edefee;
+}
+
+.navbar-nav .nav-link {
+  font-family: Markazi Text;
+  font-weight: 400;
+  font-size: 26px;
+  color: rgba(73, 94, 87);
+  margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgba(73, 94, 87, 0.8);
+}
+
+/* Hero section*/
+.hero-section {
+  background-image: url(./images/Mario\ and\ Adrian\ A.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+  height: 650px;
+}
+
+.hero-section .flex-container {
+  height: 650px;
+  background: linear-gradient(
+    to right,
+    hsl(0, 0%, 0%) 0%,
+    hsla(0, 0%, 0%, 0.964) 7.4%,
+    hsla(0, 0%, 0%, 0.918) 15.3%,
+    hsla(0, 0%, 0%, 0.862) 23.4%,
+    hsla(0, 0%, 0%, 0.799) 31.6%,
+    hsla(0, 0%, 0%, 0.73) 39.9%,
+    hsla(0, 0%, 0%, 0.655) 48.2%,
+    hsla(0, 0%, 0%, 0.577) 56.2%,
+    hsla(0, 0%, 0%, 0.497) 64%,
+    hsla(0, 0%, 0%, 0.417) 71.3%,
+    hsla(0, 0%, 0%, 0.337) 78.1%,
+    hsla(0, 0%, 0%, 0.259) 84.2%,
+    hsla(0, 0%, 0%, 0.186) 89.6%,
+    hsla(0, 0%, 0%, 0.117) 94.1%,
+    hsla(0, 0%, 0%, 0.054) 97.6%,
+    hsla(0, 0%, 0%, 0) 100%
+  );
+}
+
+.hero-section .flex-container .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 8% 32% 8% 10%;
+}
+
+.hero-section .flex-container .row .col h1 {
+  font-family: Markazi Text;
+  font-size: 64px;
+  font-weight: 400;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  color: #f4ce14;
+}
+
+.hero-section .flex-container .row .col .city {
+  font-family: Karla;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 0;
+  padding-top: 0;
+  color: #edefee;
+}
+
+.hero-section .flex-container .row .col .description {
+  font-size: 18px;
+  font-weight: 450;
+  margin-bottom: 45px;
+  padding-right: 35%;
+  color: #edefee;
+}
+
+.hero-section .flex-container .row .col a {
+  border: none;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #f4ce14;
+  color: #495e57;
+  font-family: Markazi Text;
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.hero-section .flex-container .row .col a:hover {
+  background-color: rgba(73, 94, 87, 0.9);
+  color: #f4ce14;
+}
