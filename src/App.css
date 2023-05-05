@@ -391,11 +391,12 @@ background-color: rgb(86,112,102,0.9);
   justify-content: center;
   align-items: center;
   background-color: #edefee;
-  padding: 30px 18%;
+  padding: 30px 14%;
+  max-width: 100%;
 }
 
 .footer-section .container .row {
-  margin: 25px 0 20px 0;
+  margin: 25px 0 15px 0;
 }
 
 .footer-section .container img {
