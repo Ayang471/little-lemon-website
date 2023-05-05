@@ -3,6 +3,7 @@ import HeroSection from '../components/HeroSection'
 import SpecialsSection from '../components/SpecialsSection'
 import TestimonialSection from '../components/TestimonialSection'
 import AboutSection from'../components/AboutSection'
+import FooterSection from '../components/FooterSection'
 
 function HomePage() {
     return (
@@ -11,6 +12,7 @@ function HomePage() {
             <SpecialsSection />
             <TestimonialSection />
             <AboutSection />
+            <FooterSection />
         </div>
     )
 }
