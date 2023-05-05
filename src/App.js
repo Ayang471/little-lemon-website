@@ -4,6 +4,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import logo from './images/Logo.png'
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
+import MenuPage from './pages/MenuPage';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/AboutPage" element={<AboutPage />} />
+        <Route path="/Menu" element={<MenuPage />} />
        </Routes>
     </div>
   );
