@@ -2,6 +2,7 @@ import React from 'react'
 import HeroSection from '../components/HeroSection'
 import SpecialsSection from '../components/SpecialsSection'
 import TestimonialSection from '../components/TestimonialSection'
+import AboutSection from'../components/AboutSection'
 
 function HomePage() {
     return (
@@ -9,6 +10,7 @@ function HomePage() {
             <HeroSection />
             <SpecialsSection />
             <TestimonialSection />
+            <AboutSection />
         </div>
     )
 }
