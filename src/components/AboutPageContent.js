@@ -6,6 +6,8 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import logo from '../images/logo4.png';
+import '../AboutPageStyles.css'
+
 
 function AboutPageContent() {
     return (

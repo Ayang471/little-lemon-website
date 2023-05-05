@@ -1,5 +1,5 @@
 import React from 'react'
-import '../App.css'
+import '../HomePageStyles.css'
 import footerImage from '../images/logo1.png'
 import { SocialIcon } from 'react-social-icons';
 import { Link } from 'react-router-dom'

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../App.css';
+import '../HomePageStyles.css'
 import Chef from '../images/restaurant chef B.png'
 
 

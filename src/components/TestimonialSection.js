@@ -1,5 +1,5 @@
 import React from 'react'
-import '../App.css';
+import '../HomePageStyles.css';
 import Avatar from '@mui/material/Avatar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
