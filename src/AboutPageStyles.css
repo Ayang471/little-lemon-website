@@ -1,0 +1,68 @@
+/* about content*/
+.about-content  {
+  background:linear-gradient(to top, #869c95 0%,  #F4CE14 100%);
+  padding: 12% 0px;
+  max-width:100%;
+  max-height: max-content;
+}
+
+.about-content .container {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ width:700px;
+  margin: 0 auto;
+}
+
+.about-content .container .about-main {
+  margin-top: 0px;
+  padding-bottom: 8%;
+}
+
+.about-content .container .about-main h1{
+  font-family: Markazi Text;
+  font-size: 48px;
+ text-align: center;
+ margin-bottom:12px;
+ color: #edefee;
+ text-shadow: 2px 3px 3px #495e57;
+}
+
+.about-content .container .about-main p {
+  font-family: Karla;
+  font-size: 18px;
+  font-weight: 550;
+  text-indent: 10px;
+  color: #495e57;
+}
+
+.about-content .container  .time {
+  font-family: Karla;
+  font-size: 20px;
+  font-weight: 500;
+  color:#495e57;
+  margin: 10px 0px;
+    text-shadow: 2px 3px 3px #edefee;
+}
+
+.about-content .container .logo-separator {
+  width: 20px;
+  margin: 10px 16px;
+  padding: 10px 0px;
+  transform: rotate(38.54deg);
+
+}
+
+.about-content .container .connector {
+  height: 60px;
+  color: #333333;
+}
+
+.about-content .container .content-description {
+  font-family: Karla;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333333;
+   margin: 10px 0px;
+}
