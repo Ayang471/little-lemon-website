@@ -1,0 +1,129 @@
+/*menu*/
+
+.main-menu  {
+  background: #FFFFF9;
+margin: 12% auto;
+  width: 80%;
+  border: 2px dotted #495e57;
+  padding: 10px;
+}
+
+.Restaurant-Menu section .container{
+padding: 4% 4%;
+}
+
+
+.Restaurant-Menu section .LeftSide {
+  border-bottom: dotted;
+  border-right: dotted;
+  width: 200px;
+}
+
+.Restaurant-Menu section  .LeftSide p {
+  text-align: center;
+   color: #495e57;
+}
+
+.Restaurant-Menu  section .RightSide {
+  border-bottom: dotted;
+  border-left: dotted;
+  width: 200px;
+}
+
+.Restaurant-Menu  section .RightSide p {
+ text-align: center;
+  color: #495e57;
+}
+
+.Restaurant-Menu  section .name {
+font-family: Markazi Text;
+font-size: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+.Restaurant-Menu  section  .email {
+  font-family: Markazi Text;
+  font-size: 20px;
+  padding: 0;
+    margin: 0;
+}
+
+.Restaurant-Menu section .number{
+    font-family: Markazi Text;
+  font-size: 20px;
+  padding: 0;
+    margin: 0;
+}
+
+.Restaurant-Menu  section p {
+  color: #495e57;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.Restaurant-Menu section  img{
+  width: 250px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.Restaurant-Menu main {
+padding: 0 6%;
+}
+
+.Restaurant-Menu main .container  {
+  border-radius: 8px;
+  margin:2% auto;
+  height: max-content;
+}
+
+.Restaurant-Menu main .underline {
+  width: 400px;
+  border: 2px dashed #EDEFEE;
+  border-radius: 8px;
+ margin: 8px 0 6px 0;
+}
+
+.Restaurant-Menu main .container .row .col {
+    margin-bottom: 5px;
+    justify-content: space-evenly;
+}
+
+.Restaurant-Menu main h2{
+  font-family: Karla;
+  font-weight: medium;
+  font-size: 24px;
+  color:#495e57;
+}
+
+.Restaurant-Menu main ul{
+  list-style: none;
+  font-family: Markazi Text;
+  font-size: 24px;
+  text-align: left;
+  margin:5% 0 10% 0;
+  padding-left: 0;
+}
+
+.Restaurant-Menu main ul li {
+  margin: 8px 0;
+color: rgb(95, 90, 68, 1);
+ font-weight: regular;
+}
+
+.Restaurant-Menu main .prices li {
+  color: rgb(95, 90, 68);
+  font-style: italic;
+  margin-left: 12%;
+}
+
+.Restaurant-Menu main .bottom-line {
+  font-family: Karla;
+  font-size: 18px;
+  font-weight: medium;
+  margin: 16px 0 0 0;
+  padding: 0;
+  text-align: center;
+}

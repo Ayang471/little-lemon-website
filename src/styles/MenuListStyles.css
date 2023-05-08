@@ -1,0 +1,146 @@
+.Menu-tabs {
+    display: grid;
+    margin: 6% auto;
+}
+
+.Menu-tabs .container {
+    width:100%;
+    justify-items: center;
+}
+
+.box-size {
+  width: 90%;
+  margin: 20px;
+}
+.box-style {
+  display: flex;
+  justify-content: center;
+}
+
+.tablist {
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.tabs {
+  color: #e60606;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}
+
+.tabs:hover {
+  cursor: pointer;
+  background-color: #E5E5E5;
+}
+
+.menu-box {
+margin-left: 4%;
+margin-top: 15px;
+}
+
+.TabPanel {
+  padding: 20px;
+}
+
+
+
+/* View All */
+.View-All-List .container{
+    width: 100%;
+    display: grid;
+}
+
+
+.View-All-List  .container .row {
+    justify-items: center;
+    gap: 6px;
+}
+
+.View-All-List  .container .row .selection-cards {
+    margin-bottom: 20px;
+    width: 260px;
+}
+
+.View-All-List  .container .row .list-images {
+    width: 260px;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: -12px;
+}
+
+.View-All-List  .container .row  .selection-title {
+    font-family: Karla;
+    font-weight: 500;
+    text-align: center;
+}
+
+/*Categories Tab*/
+.Category {
+width: 100%;
+display: grid;
+  column-gap: 10px;
+  row-gap: 15px;
+}
+
+.Category .container .row {
+    justify-items: center;
+    gap: 7px;
+}
+
+.Category  .container .row .cards {
+    margin-bottom: 20px;
+    width: 250px;
+    margin:  3px 2px;
+}
+
+.Category   .container .row .cards  .content .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Category  .container .row .images {
+    width: 260px;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: -12px;
+}
+.Category  .container .row .title h4{
+    font-family: Karla;
+    font-weight: 450;
+    text-align: left;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.Category  .container .row  .item-price span {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+    color: #333333;
+    margin-top: 5%;
+}
+
+.Category .container .row .desc {
+    padding: 5px 0 0 0;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.Category  .button {
+    font-weight: 500;
+    color: rgba(73, 94, 87);
+    margin-left: 8px;
+}
+
+.Category .Calories {
+    font-family: Markazi Text;
+    font-size: 20px;
+    font-style: italic;
+}
