@@ -6,7 +6,9 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import MenuPage from './pages/MenuPage';
 import ReservationPage from './pages/ReservationPage';
-import ConfirmedBooking from './components/ConfirmedBooking'
+import ConfirmedBooking from './ReservationPageComponents/ConfirmedBooking'
+import OnlineOrderPage from './pages/OnlineOrderPage'
+import LogInPage from './pages/LogInPage';
 
 function App() {
   return (
@@ -27,7 +29,7 @@ function App() {
 
               <Link to="/ReservationPage" className="nav-link">Reservations</Link>
 
-              <Link to="/OnlineOrder" className="nav-link">Online Order</Link>
+              <Link to="/OnlineOrderPage" className="nav-link">Online Order</Link>
 
               <Link to="/LogInPage" className="nav-link">Log In</Link>
             </div>
@@ -40,6 +42,8 @@ function App() {
         <Route path="/Menu" element={<MenuPage />} />
         <Route path="/ReservationPage" element={<ReservationPage />}></Route>
         <Route path="/ReservationPage/confirmation" element={<ConfirmedBooking />} />
+        <Route path="/OnlineOrderPage" element={<OnlineOrderPage />} />
+        <Route path="/LogInPage" element={<LogInPage />} />
        </Routes>
     </div>
   );
