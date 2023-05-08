@@ -4,6 +4,7 @@ import SpecialsSection from '../components/SpecialsSection'
 import TestimonialSection from '../components/TestimonialSection'
 import AboutSection from'../components/AboutSection'
 import FooterSection from '../components/FooterSection'
+import '../HomePageStyles.css';
 
 function HomePage() {
     return (

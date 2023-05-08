@@ -1,5 +1,4 @@
 import React from 'react'
-import '../HomePageStyles.css';
 import greeksalad from '../images/greek salad.png'
 import burchetta from '../images/Vector.png'
 import lemondessert from '../images/lemon dessert.png'

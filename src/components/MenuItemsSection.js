@@ -1,4 +1,7 @@
 import React from 'react'
+import logo from '../images/Logo.png'
+import { Hide, Box } from '@chakra-ui/react'
+
 
 function MenuItems({ id, title, category, price, img, desc }) {
     const appetizer = [
@@ -130,197 +133,230 @@ function MenuItems({ id, title, category, price, img, desc }) {
     ]
     return (
         <div className='Restaurant-Menu'>
-            <div className='container'>
-                <div className='row'>
-                    <div className='col'>
-                        <h2>Appetizer </h2>
-                        <div className='underline'></div>
-                        <div className='row'>
-                            <div className='col'>
-                                <ul className='menu-items'>
-                                    {appetizer.map((appetizer) =>
-                                        <li key={appetizer} value={appetizer}>
-                                            {appetizer}
-                                        </li>)}
-                                </ul>
-                            </div>
-                            <div className='col'>
-                                <ul className='prices'>
-                                    {appetizerPrice.map((Price) =>
-                                        <li key={Price} value={Price}>
-                                            {Price}
-                                        </li>)}
-                                </ul>
-                            </div>
+            <section>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col'>
+                            <Hide breakpoint='(max-width: 768px)'>
+                                <Box>
+                                    <div className='LeftSide'>
+                                        <p className='name'>Little Lemon</p>
+                                        <p className='email'>www.littlelemon.com</p>
+                                        <p className='number'>XXX - XXX - XXXX</p>
+                                    </div>
+                                </Box>
+                            </Hide>
                         </div>
-                    </div>
-                    <div className='col'>
-                        <h2>Entree</h2>
-                        <div className='underline'></div>
-                        <div className='row'>
-                            <div className='col'>
-                                <ul className='menu-items'>
-                                    {Entree.map((Entree) =>
-                                        <li key={Entree} value={Entree}>
-                                            {Entree}
-                                        </li>)}
-                                </ul>
-                            </div>
-                            <div className='col'>
-                                <ul className='prices'>
-                                    {EntreePrice.map((Price) =>
-                                        <li key={Price} value={Price}>
-                                            {Price}
-                                        </li>)}
-                                </ul>
-                            </div>
+                        <div className='col'>
+                            <img src={logo} alt='logo' />
+                        </div>
+                        <div className='col'>
+                            <Hide breakpoint='(max-width: 768px)'>
+                                <Box>
+                                    <div className='RightSide'>
+                                        <p className='name'>Little Lemon</p>
+                                        <p className='email'>www.littlelemon.com</p>
+                                        <p className='number'>XXX - XXX - XXXX</p>
+                                    </div>
+                                </Box>
+                            </Hide>
                         </div>
                     </div>
                 </div>
-                <div className='row'>
-                    <div className='col'>
-                        <h2>Salad</h2>
-                        <div className='underline'></div>
-                        <div className='row'>
-                            <div className='col'>
-                                <ul className='menu-items'>
-                                    {Salad.map((Salad) =>
-                                        <li key={Salad} value={Salad}>
-                                            {Salad}
-                                        </li>)}
-                                </ul>
-                            </div>
-                            <div className='col'>
-                                <ul className='prices'>
-                                    {SaladPrice.map((Price) =>
-                                        <li key={Price} value={Price}>
-                                            {Price}
-                                        </li>)}
-                                </ul>
+            </section>
+            <main> 
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col'>
+                            <h2>Appetizer </h2>
+                            <div className='underline'></div>
+                            <div className='row'>
+                                <div className='col'>
+                                    <ul className='menu-items'>
+                                        {appetizer.map((appetizer) =>
+                                            <li key={appetizer} value={appetizer}>
+                                                {appetizer}
+                                            </li>)}
+                                    </ul>
+                                </div>
+                                <div className='col'>
+                                    <ul className='prices'>
+                                        {appetizerPrice.map((Price) =>
+                                            <li key={Price} value={Price}>
+                                                {Price}
+                                            </li>)}
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-
+                        <div className='col'>
+                            <h2>Entree</h2>
+                            <div className='underline'></div>
+                            <div className='row'>
+                                <div className='col'>
+                                    <ul className='menu-items'>
+                                        {Entree.map((Entree) =>
+                                            <li key={Entree} value={Entree}>
+                                                {Entree}
+                                            </li>)}
+                                    </ul>
+                                </div>
+                                <div className='col'>
+                                    <ul className='prices'>
+                                        {EntreePrice.map((Price) =>
+                                            <li key={Price} value={Price}>
+                                                {Price}
+                                            </li>)}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div className='col'>
-                        <h2>Sides</h2>
-                        <div className='underline'></div>
-                        <div className='row'>
-                            <div className='col'>
-                                <ul className='menu-items'>
-                                    {Sides.map((Sides) =>
-                                        <li key={Sides} value={Sides}>
-                                            {Sides}
-                                        </li>)}
-                                </ul>
+                    <div className='row'>
+                        <div className='col'>
+                            <h2>Salad</h2>
+                            <div className='underline'></div>
+                            <div className='row'>
+                                <div className='col'>
+                                    <ul className='menu-items'>
+                                        {Salad.map((Salad) =>
+                                            <li key={Salad} value={Salad}>
+                                                {Salad}
+                                            </li>)}
+                                    </ul>
+                                </div>
+                                <div className='col'>
+                                    <ul className='prices'>
+                                        {SaladPrice.map((Price) =>
+                                            <li key={Price} value={Price}>
+                                                {Price}
+                                            </li>)}
+                                    </ul>
+                                </div>
                             </div>
-                            <div className='col'>
-                                <ul className='prices'>
-                                    {SidesPrice.map((Price) =>
-                                        <li key={Price} value={Price}>
-                                            {Price}
-                                        </li>)}
-                                </ul>
+
+                        </div>
+                        <div className='col'>
+                            <h2>Sides</h2>
+                            <div className='underline'></div>
+                            <div className='row'>
+                                <div className='col'>
+                                    <ul className='menu-items'>
+                                        {Sides.map((Sides) =>
+                                            <li key={Sides} value={Sides}>
+                                                {Sides}
+                                            </li>)}
+                                    </ul>
+                                </div>
+                                <div className='col'>
+                                    <ul className='prices'>
+                                        {SidesPrice.map((Price) =>
+                                            <li key={Price} value={Price}>
+                                                {Price}
+                                            </li>)}
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <div className='col'>
+                            <h2>Pizza</h2>
+                            <div className='underline'></div>
+                            <div className='row'>
+                                <div className='col'>
+                                    <ul className='menu-items'>
+                                        {Pizza.map((Pizza) =>
+                                            <li key={Pizza} value={Pizza}>
+                                                {Pizza}
+                                            </li>)}
+                                    </ul>
+                                </div>
+                                <div className='col'>
+                                    <ul className='prices'>
+                                        {PizzaPrice.map((price) =>
+                                            <li key={price} value={price}>
+                                                {price}
+                                            </li>)}
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className='col'>
+                            <h2>Cocktails</h2>
+                            <div className='underline'></div>
+                            <div className='row'>
+                                <div className='col'>
+                                    <ul className='menu-items'>
+                                        {Cocktails.map((Cocktails) =>
+                                            <li key={Cocktails} value={Cocktails}>
+                                                {Cocktails}
+                                            </li>)}
+                                    </ul>
+                                </div>
+                                <div className='col'>
+                                    <ul className='prices'>
+                                        {CocktailsPrice.map((Price) =>
+                                            <li key={Price} value={Price}>
+                                                {Price}
+                                            </li>)}
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <div className='col'>
+                            <h2>Beverages</h2>
+                            <div className='underline'></div>
+                            <div className='row'>
+                                <div className='col'>
+                                    <ul className='menu-items'>
+                                        {Beverages.map((Beverages) =>
+                                            <li key={Beverages} value={Beverages}>
+                                                {Beverages}
+                                            </li>)}
+                                    </ul>
+                                </div>
+                                <div className='col'>
+                                    <ul className='prices'>
+                                        {BeveragesPrice.map((Price) =>
+                                            <li key={Price} value={Price}>
+                                                {Price}
+                                            </li>)}
+                                    </ul>
+                                </div>
                             </div>
                         </div>
+                        <div className='col'>
+                            <h2>Red/Whites</h2>
+                            <div className='underline'></div>
+                            <div className='row'>
+                                <div className='col'>
+                                    <ul className='menu-items'>
+                                        {Wines.map((Wines) =>
+                                            <li key={Wines} value={Wines}>
+                                                {Wines}
+                                            </li>)}
+                                    </ul>
+                                </div>
+                                <div className='col'>
+                                    <ul className='prices'>
+                                        {WinesPrice.map((Price) =>
+                                            <li key={Price} value={Price}>
+                                                {Price}
+                                            </li>)}
+                                    </ul>
+                                </div>
+                            </div>
 
+                        </div>
                     </div>
                 </div>
-                <div className='row'>
-                    <div className='col'>
-                        <h2>Pizza</h2>
-                        <div className='underline'></div>
-                        <div className='row'>
-                            <div className='col'>
-                                <ul className='menu-items'>
-                                    {Pizza.map((Pizza) =>
-                                        <li key={Pizza} value={Pizza}>
-                                            {Pizza}
-                                        </li>)}
-                                </ul>
-                            </div>
-                            <div className='col'>
-                                <ul className='prices'>
-                                    {PizzaPrice.map((price) =>
-                                        <li key={price} value={price}>
-                                            {price}
-                                        </li>)}
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className='col'>
-                        <h2>Cocktails</h2>
-                        <div className='underline'></div>
-                        <div className='row'>
-                            <div className='col'>
-                                <ul className='menu-items'>
-                                    {Cocktails.map((Cocktails) =>
-                                        <li key={Cocktails} value={Cocktails}>
-                                            {Cocktails}
-                                        </li>)}
-                                </ul>
-                            </div>
-                            <div className='col'>
-                                <ul className='prices'>
-                                    {CocktailsPrice.map((Price) =>
-                                        <li key={Price} value={Price}>
-                                            {Price}
-                                        </li>)}
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div className='row'>
-                    <div className='col'>
-                        <h2>Beverages</h2>
-                        <div className='underline'></div>
-                        <div className='row'>
-                            <div className='col'>
-                                <ul className='menu-items'>
-                                    {Beverages.map((Beverages) =>
-                                        <li key={Beverages} value={Beverages}>
-                                            {Beverages}
-                                        </li>)}
-                                </ul>
-                            </div>
-                            <div className='col'>
-                                <ul className='prices'>
-                                    {BeveragesPrice.map((Price) =>
-                                        <li key={Price} value={Price}>
-                                            {Price}
-                                        </li>)}
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col'>
-                        <h2>Red/Whites</h2>
-                        <div className='underline'></div>
-                        <div className='row'>
-                            <div className='col'>
-                                <ul className='menu-items'>
-                                    {Wines.map((Wines) =>
-                                        <li key={Wines} value={Wines}>
-                                            {Wines}
-                                        </li>)}
-                                </ul>
-                            </div>
-                            <div className='col'>
-                                <ul className='prices'>
-                                    {WinesPrice.map((Price) =>
-                                        <li key={Price} value={Price}>
-                                            {Price}
-                                        </li>)}
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+            </main>
             <div className='bottom-line'>
                 <i>*Lorem ipsum dolor sit amet consectetur. At varius purus in varius pharetra ut maecenas eget. Lorem ipsum dolor sit amet consectetur..</i>
             </div>

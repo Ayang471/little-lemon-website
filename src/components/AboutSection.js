@@ -1,5 +1,4 @@
 import React from 'react'
-import '../HomePageStyles.css'
 import Chef from '../images/restaurant chef B.png'
 
 

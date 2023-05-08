@@ -1,10 +1,12 @@
 import React from 'react'
-import MenuTitle from '../components/MenuTitleSection'
+//import MenuTitle from '../components/MenuTitleSection'
+import MenuItemsSection from '../components/MenuItemsSection'
+import '../MenuPageStyles.css'
 
 function MenuPage() {
   return (
-    <div>
-        <MenuTitle />
+    <div className='main-menu'>
+        <MenuItemsSection />
     </div>
   )
 }
