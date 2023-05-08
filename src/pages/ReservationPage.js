@@ -1,5 +1,5 @@
 import React from 'react'
-import AvailableTimes from '../components/AvailableTimes'
+import AvailableTimes from '../ReservationPageComponents/AvailableTimes'
 
 function ReservationPage() {
   return (

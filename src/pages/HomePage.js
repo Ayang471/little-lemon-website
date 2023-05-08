@@ -1,10 +1,10 @@
 import React from 'react'
-import HeroSection from '../components/HeroSection'
-import SpecialsSection from '../components/SpecialsSection'
-import TestimonialSection from '../components/TestimonialSection'
-import AboutSection from'../components/AboutSection'
-import FooterSection from '../components/FooterSection'
-import '../HomePageStyles.css';
+import HeroSection from '../HomePageComponents/HeroSection'
+import SpecialsSection from '../HomePageComponents/SpecialsSection'
+import TestimonialSection from '../HomePageComponents/TestimonialSection'
+import AboutSection from'../HomePageComponents/AboutSection'
+import FooterSection from '../HomePageComponents/FooterSection'
+import '../styles/HomePageStyles.css';
 
 function HomePage() {
     return (

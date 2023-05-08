@@ -1,7 +1,7 @@
 import React from 'react'
 //import MenuTitle from '../components/MenuTitleSection'
-import MenuItemsSection from '../components/MenuItemsSection'
-import '../MenuPageStyles.css'
+import MenuItemsSection from '../MenuPageComponents/MenuItemsSection'
+import '../styles/MenuPageStyles.css'
 
 function MenuPage() {
   return (

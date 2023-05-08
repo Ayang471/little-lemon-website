@@ -1,6 +1,7 @@
 import React from 'react'
-import AboutPageContent from '../components/AboutPageContent'
-import FooterSection from '../components/FooterSection'
+import AboutPageContent from '../AboutPageComponents/AboutPageContent'
+import FooterSection from '../HomePageComponents/FooterSection'
+import '../styles/AboutPageStyles.css';
 
 function AboutPage() {
   return (
