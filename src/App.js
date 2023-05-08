@@ -5,6 +5,8 @@ import logo from './images/Logo.png'
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import MenuPage from './pages/MenuPage';
+import ReservationPage from './pages/ReservationPage';
+import ConfirmedBooking from './components/ConfirmedBooking'
 
 function App() {
   return (
@@ -14,16 +16,16 @@ function App() {
           <button className="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <Link to="/" className="navbar-brand mx-3"><img src={logo} alt="logo" /></Link>
-          <div className="collapse navbar-collapse justify-content-center align-items-center" id="mynavbar">
-            <div className="navbar-nav justify-content-center align-items-center">
+          <Link to="/" className="navbar-brand mx-3 my-0 px-0"><img src={logo} alt="logo" /></Link>
+          <div className="collapse navbar-collapse justify-content-end align-items-center" id="mynavbar">
+            <div className="navbar-nav justify-content-end align-items-center" >
               <Link to="/" className="nav-link">Home</Link>
 
               <Link to="/AboutPage" className="nav-link">About</Link>
 
               <Link to="/Menu" className="nav-link">Menu</Link>
 
-              <Link to="/booking" className="nav-link">Reservations</Link>
+              <Link to="/ReservationPage" className="nav-link">Reservations</Link>
 
               <Link to="/OnlineOrder" className="nav-link">Online Order</Link>
 
@@ -36,6 +38,8 @@ function App() {
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/AboutPage" element={<AboutPage />} />
         <Route path="/Menu" element={<MenuPage />} />
+        <Route path="/ReservationPage" element={<ReservationPage />}></Route>
+        <Route path="/ReservationPage/confirmation" element={<ConfirmedBooking />} />
        </Routes>
     </div>
   );
