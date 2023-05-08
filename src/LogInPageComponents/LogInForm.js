@@ -11,6 +11,7 @@ import {
     Input,
     VStack,
 } from "@chakra-ui/react";
+import '../styles/LogInFormStyles.css'
 
 
 function LoginForm() {
