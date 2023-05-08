@@ -1,6 +1,8 @@
 import React from 'react'
 import SocialLinks from './SocialLinks'
 import { Hide, Box } from '@chakra-ui/react'
+import '../styles/About&InquiriesStyles.css'
+
 
 function AboutAndInquiries() {
     return (

@@ -1,5 +1,7 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons';
+import '../styles/SocialLinksStyles.css'
+
 
 function SocialLinks() {
     return (

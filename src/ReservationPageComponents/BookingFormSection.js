@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { useState } from 'react'
-import '../App.css'
+import '../styles/BookingFormStyles.css'
 import AboutAndInquiries from './AboutAndInquiries'
 import Container from '@mui/material/Container';
 import { Radio, RadioGroup, Stack } from '@chakra-ui/react'
