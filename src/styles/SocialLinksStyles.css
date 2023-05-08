@@ -1,0 +1,18 @@
+/* social-links*/
+.social-links-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social-links-list .social-links {
+  margin: 12px 16px;
+}
+
+.socialLink footer {
+  font-family: Karla;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-align: center;
+}

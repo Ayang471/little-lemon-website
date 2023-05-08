@@ -1,0 +1,76 @@
+/*ABout & Inquiries*/
+.inquiries-page {
+  background-color: #edefee;
+  font-family: Karla;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self:center;
+}
+
+.inquiries-page .flex-container {
+  margin: 25px 0;
+}
+
+.inquiries-page .flex-container .row {
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+}
+
+.inquiries-page .flex-container .row  .col {
+  padding: 10px 40px;
+}
+
+.inquiries-page .flex-container .res-bottom-list h6 {
+  text-align: left;
+   font-size: 18px;
+  font-weight: 600;
+  color: #495e57;
+}
+
+.inquiries-page .flex-container .col .res-bottom-list {
+  margin-top: 0;
+}
+
+.inquiries-page .flex-container .res-bottom-list  a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(109, 109, 109);
+  align-items: left;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.inquiries-page .flex-container .res-bottom-list a:hover {
+  color: #495e57;
+}
+
+.inquiries-page .privacy-section {
+  font-family: Karla;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.inquiries-page .privacy-section  .privacy {
+    display: flex;
+      flex-direction: row;
+  justify-content: space-between;
+}
+
+.inquiries-page .privacy-section .privacy a {
+  justify-content: space-between;
+  text-decoration: none;
+  color: rgb(109, 109, 109);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0;
+    margin: 0 30px;
+}
+
+.inquiries-page .privacy-section .privacy a:hover {
+  color: rgb(109, 109, 109, 0.8);
+}

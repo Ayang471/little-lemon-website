@@ -1,0 +1,72 @@
+/* confirmed Booking page*/
+.confirmed-page {
+  background-image: url(../images/littlelemon.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 400px;
+}
+
+.confirmed-page .confirmed-message {
+  background-color: #edefee;
+  margin: 15% 8% 5% 8%;
+  padding: 40px 50px;
+  border-radius: 20px;
+  box-shadow: 3px 4px 4px rgba(48, 48, 48, 0.1);
+}
+
+.confirmed-page .confirmed-message h2 {
+  color: #495e57;
+  font-size: 34px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.confirmed-page .confirmed-message h5 {
+  font-size: 22px;
+  color: #333333;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.confirmed-page .confirmed-message h4 {
+  font-size: 20px;
+  color: #333333;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+ .confirmed-page .redirect-buttons {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-self: center;
+ }
+
+.confirmed-page .redirect-buttons > div {
+  display: inline-block;
+  margin: 8px 24px;
+  font-size: 18px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.confirmed-page .redirect-buttons > div a {
+  text-decoration: none;
+  border: 1px solid #495e57;
+  border-radius: 8px;
+  padding: 8px 12px;
+  color: #333333;
+  margin: 0px 10px;
+  align-items: center;
+}
+
+.confirmed-page .redirect-buttons > div a:hover {
+  border: 1px solid #495e57;
+  border-radius: 8px;
+  background-color: #f4ce14;
+  padding: 8px 12px;
+  color: #495e57;
+  transition: 1s ease-in-out;
+   align-items: center;
+}
+

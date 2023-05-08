@@ -1,0 +1,85 @@
+/* LogIn Page */
+.login-form h1{
+  font-family:Karla;
+  text-align: center;
+  color:#495e57 ;
+  font-size: 36px;
+  margin-bottom: 16px;
+  letter-spacing: 2px;
+}
+
+.login-form .form-box {
+width: 350px;
+padding: 58px 44px;
+background-color: #f4ce14;
+box-shadow: 2px 3px 7px #edefee;
+border-radius: 8px;
+}
+
+.login-form form{
+  align-items: center;
+}
+
+.login-form .form-text {
+  font-family: Karla;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.login-form  .rememberMe{
+    font-family: Karla;
+  font-size: 18px;
+  font-weight: 500;
+  color: #4e4e4e;
+}
+.login-form .form-button{
+   font-family: Karla;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+.login-form .inputField{
+  width: 250px;
+  font-family:Karla;
+  background-color:#edefee;
+  color:#333333 ;
+  border: none;
+  border-radius: 6px;
+  border-bottom: 1px solid rgba(white, 0.5);
+  padding:8px;
+  margin: 6px 0px;
+}
+
+.login-form .inputField::placeholder {
+    font-family:Karla;
+    color: rgba(#495e57, 1);
+    font-size: 18px;
+    font-weight: 500;
+    padding-left:8px;
+  }
+.login-form .inputField:focus {
+    font-family:Karla;
+    color: #495e57;
+    outline: none;
+    border-bottom: 1.2px solid rgba(#495e57, 0.7);
+    font-size: 1em;
+    transition: .8s all ease;
+}
+ .login-form .inputField:focus::placeholder {
+     font-family:Karla;
+      opacity: 0;
+    }
+
+    .login-form button {
+  border: 1px solid #495e57;
+  border-radius: 8px;
+  padding: 4px 12px;
+  color:#495e57;
+}
+
+.login-form button:hover {
+  background-color: rgba(73, 94, 87,0.9);
+  color:#edefee;
+  transition:background-color 1s ease-out;
+}
+
