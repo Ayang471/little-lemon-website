@@ -1,0 +1,455 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Markazi+Text:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Markazi-Text:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Markazi+Text:wght@400;500;600;700&display=swap");
+
+.App nav .container-fluid .navbar-brand img {
+  height: 40px;
+  margin-left: 2%;
+  padding: 0;
+  margin-right: 0px;
+}
+
+.navbar {
+    background-color: #edefee;
+}
+
+.navbar-brand {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.navbar-nav .nav-link {
+  font-family: Markazi Text;
+  font-weight: 400;
+  font-size: 26px;
+  color: rgba(73, 94, 87);
+  margin: 0 50px 0 0 ;
+  padding: 0;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgba(73, 94, 87, 0.8);
+}
+
+
+/* Hero section*/
+.hero-section {
+  background-image: url(./images/Mario\ and\ Adrian\ A.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+  height: 700px;
+}
+
+.hero-section .flex-container {
+  height: 700px;
+  background: linear-gradient(
+    to right,
+    hsl(0, 0%, 0%) 0%,
+    hsla(0, 0%, 0%, 0.964) 7.4%,
+    hsla(0, 0%, 0%, 0.918) 15.3%,
+    hsla(0, 0%, 0%, 0.862) 23.4%,
+    hsla(0, 0%, 0%, 0.799) 31.6%,
+    hsla(0, 0%, 0%, 0.73) 39.9%,
+    hsla(0, 0%, 0%, 0.655) 48.2%,
+    hsla(0, 0%, 0%, 0.577) 56.2%,
+    hsla(0, 0%, 0%, 0.497) 64%,
+    hsla(0, 0%, 0%, 0.417) 71.3%,
+    hsla(0, 0%, 0%, 0.337) 78.1%,
+    hsla(0, 0%, 0%, 0.259) 84.2%,
+    hsla(0, 0%, 0%, 0.186) 89.6%,
+    hsla(0, 0%, 0%, 0.117) 94.1%,
+    hsla(0, 0%, 0%, 0.054) 97.6%,
+    hsla(0, 0%, 0%, 0) 100%
+  );
+}
+
+.hero-section .flex-container .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 14% 32% 8% 16%;
+}
+
+.hero-section .flex-container .row .col h1 {
+  font-family: Markazi Text;
+  font-size: 64px;
+  font-weight: 400;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  color: #f4ce14;
+}
+
+.hero-section .flex-container .row .col .city {
+  font-family: Karla;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 0;
+  padding-top: 0;
+  color: #edefee;
+}
+
+.hero-section .flex-container .row .col .description {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 45px;
+  padding-right: 35%;
+  color: #edefee;
+}
+
+.hero-section .flex-container .row .col a {
+  border: none;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #f4ce14;
+  color: #495e57;
+  font-family: Karla;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition:  background-color 1s;
+}
+
+.hero-section .flex-container .row .col a:hover {
+ box-shadow:2px 2px 8px 2px #edefee; 
+}
+
+.hero-section .flex-container .row .col a:focus,
+.hero-section .flex-container .row .col a:active {
+  background-color: #495e57;
+  color: #f4ce14;
+  transition: none;
+}
+
+/*Specials*/
+.specials {
+  margin:5% auto;
+  padding: 0;
+}
+
+.flex-row {
+  flex-direction: row! important;
+}
+
+.d-flex{
+  display: flex!important;
+    margin-bottom: 4%;
+}
+
+.specials .d-flex span{
+  display: inline-block;
+background-color: #f4ce14;
+}
+
+.orange-wedge-L .invert {
+  display: inline-block;
+}
+
+.invert {
+  transform: scaleX(-1) scaleY(-1);
+  margin-right: -1px;
+}
+
+.orange-wedge-L {
+  background-color: #f4ce14;
+  position: relative;
+  width:20px;
+  height:100%;
+  margin-left:-1px;
+  padding: 0;
+  clip-path: polygon(0 0, 100% 0, 1px 100%, 0 100%);
+}
+
+
+.specials .container .row h1 {
+  font-family: Markazi Text;
+  font-weight: 450;
+  font-size: 58px;
+  color: #495e57;
+  background-color: #f4ce14;
+  margin: 0;
+    padding: 0 20px;
+}
+
+
+.specials .container .row .col {
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+    padding: 10px 15px;
+    margin: 0;
+}
+
+.specials .container .row .col .card {
+  width: 300px;
+  height: 100%;
+  padding: 0px;
+  margin:0px;
+}
+
+.specials .container .card .card-body {
+  text-align: left;
+  margin: 12px 10px 0px;
+}
+
+.specials .container .card-body h4 {
+    color: #424242;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.specials .container .card-body small {
+  font-size: 18px;
+  color: red;
+}
+
+.specials .container .card-body  p {
+  font-size: 15px;
+  text-align: left;
+  color: #777777;
+  margin: 0;
+}
+
+.specials .container .order-delivery {
+  align-items: flex-start;
+}
+
+.specials .container .order-delivery a {
+  text-decoration: none;
+  background-color: rgba(73, 94, 87);
+  padding: 8px 15px;
+  margin: 0px 0px 5px 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #edefee;
+  border-radius: 5px;
+  transition: 2s ease-in-out;
+  font-family: Karla;
+}
+
+.specials .container .order-delivery a:hover {
+  background-color: rgba(73, 94, 87, 0.9);
+  color: #edefee;
+}
+
+/*Testimonials*/
+.testimonials {
+  background-color: #495e57;
+  padding: 50px 0%;
+}
+
+.testimonials .sub-heading {
+  margin: 0 auto;
+}
+
+.testimonials .sub-heading h1 {
+  color: #edefee;
+  font-family: Markazi Text;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.testimonials .border {
+  width: 190px;
+  height: 5px;
+  background-color: #fbdabb;
+  margin: 20px auto;
+}
+
+.testimonials .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 4% auto;
+  padding: 0;
+}
+
+.testimonials .container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.testimonials .container .row .col {
+    padding: 0;
+    margin: auto;
+}
+
+.testimonials .container .row .col .review-card {
+width: 280px;
+  padding:0px;
+  background-color: rgb(86,112,102);
+  margin: 6px 6px;
+  border-radius: 18px;
+}
+
+
+.testimonials .container .row .col .review-card:hover  {
+  padding:0px;
+background-color: rgb(86,112,102,0.9);
+  margin: 6px 6px;
+  border-radius: 18px;
+}
+
+.testimonials .container .row .col .avatar {
+  margin: 20px auto;
+}
+
+.testimonials .container .row .col .card_content {
+    padding:6% 10%;
+}
+
+.testimonials section strong {
+  color: #edefee;
+  font-size: 18px;
+  font-weight: 350;
+}
+
+.testimonials section p {
+  color: #edefee;
+  text-align: left;
+  font-size: 14px;
+  font-weight: regular;
+  line-height: 22px;
+}
+
+.testimonials .container .review-star {
+     display: flex;
+   flex-wrap:wrap;
+   justify-content: center;
+   align-items: center;
+  color: #f4ce14;
+  margin: 10px auto;
+}
+
+/*About - Chicago.js*/
+.about-section {
+  padding: 10px 15%;
+  margin: 5% 0 5% 0;
+}
+
+.about-section .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.about-section .container .res-image {
+  margin: 0 auto;
+}
+
+.about-section .container .res-image img {
+   width:400px;
+  border-radius: 45px 0 45px 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
+}
+
+.about-section .container .about-summary h1 {
+  font-family: Markazi Text;
+  font-weight: 500;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 77px;
+  color: #495e57;
+  margin: 0;
+  padding: 0;
+}
+
+.about-section .container .underline {
+  width: 250px;
+  height: 5px;
+  background-color: #f4ce14;
+  margin-bottom: 16px;
+}
+
+.about-section .container .row .col .about-summary .city {
+  font-family: Karla;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 0;
+  padding-top: 0;
+  color: #495e57;
+}
+
+.about-section .container .about-summary p {
+  font-family: Karla;
+  font-size: 18px;
+  line-height: 28px;
+  padding-right: 5px;
+  color: #555555;
+}
+
+/*Footer*/
+.footer-section {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #edefee;
+}
+
+.footer-section .container {
+  justify-content: center;
+  align-items: center;
+    padding: 30px 14%;
+}
+
+.footer-section .container .row {
+  margin: 14px 0;
+}
+
+.footer-section .container img {
+  position: relative;
+  top: 22px;
+  width: 80px;
+  height: 140px;
+}
+
+.footer-section .container .col {
+  font-family: Karla;
+  font-size: 16px;
+  font-weight: 500;
+  list-style: none;
+  text-align: left;
+  color: rgb(129, 129, 129);
+  line-height: 22px;
+}
+
+.footer-section .container p {
+  font-size: 18px;
+  padding: 0;
+  font-weight: 450;
+  text-align: left;
+  color: #333333;
+  font-family: Karla;
+}
+
+.footer-section .col a {
+  text-decoration: none;
+  color: rgb(129, 129, 129);
+    font-weight: 400;
+}
+
+.footer-section .col a:hover {
+  text-decoration: underline;
+  color: rgb(90, 90, 90);
+   font-weight: 400;
+}
+
+.footer-section .container .social-link-icons .social-icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-icons  .icons {
+  margin-right: 10px;
+}
