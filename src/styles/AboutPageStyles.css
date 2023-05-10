@@ -22,9 +22,10 @@
 
 .about-content .container .about-main h1{
   font-family: Markazi Text;
-  font-size: 48px;
+  font-size: 56px;
  text-align: center;
- margin-bottom:12px;
+ margin-bottom:6%;
+ padding: 0;
  color: #edefee;
  text-shadow: 2px 3px 3px #495e57;
 }

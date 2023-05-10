@@ -1,11 +1,22 @@
 /*menu*/
 
+
+.online-order{
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
 .main-menu  {
   background: #FFFFF9;
 margin: 12% auto;
   width: 80%;
   border: 2px dotted #495e57;
   padding: 10px;
+}
+
+.Restaurant-Menu {
+   padding: 4% 2%; 
 }
 
 .Restaurant-Menu section .container{
@@ -16,7 +27,7 @@ padding: 4% 4%;
 .Restaurant-Menu section .LeftSide {
   border-bottom: dotted;
   border-right: dotted;
-  width: 200px;
+  width: 180px;
 }
 
 .Restaurant-Menu section  .LeftSide p {
@@ -27,7 +38,7 @@ padding: 4% 4%;
 .Restaurant-Menu  section .RightSide {
   border-bottom: dotted;
   border-left: dotted;
-  width: 200px;
+  width: 180px;
 }
 
 .Restaurant-Menu  section .RightSide p {

@@ -37,7 +37,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   position: relative;
   height: 700px;
 }
@@ -69,7 +69,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 14% 32% 8% 16%;
+  padding: 10% 32% 8% 16%;
 }
 
 .hero-section .flex-container .row .col h1 {
@@ -89,6 +89,7 @@
   margin-top: 0;
   padding-top: 0;
   color: #edefee;
+  margin-bottom: 4%;
 }
 
 .hero-section .flex-container .row .col .description {
@@ -102,11 +103,11 @@
 .hero-section .flex-container .row .col a {
   border: none;
   border-radius: 8px;
-  padding: 16px;
+  padding: 20px;
   background-color: #f4ce14;
   color: #495e57;
   font-family: Karla;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   text-decoration: none;
   transition:  background-color 1s;
@@ -125,7 +126,7 @@
 
 /*Specials*/
 .specials {
-  margin:5% auto;
+  margin:auto;
   padding: 0;
 }
 
@@ -162,7 +163,6 @@ background-color: #f4ce14;
   clip-path: polygon(0 0, 100% 0, 1px 100%, 0 100%);
 }
 
-
 .specials .container .row h1 {
   font-family: Markazi Text;
   font-weight: 450;
@@ -170,31 +170,30 @@ background-color: #f4ce14;
   color: #495e57;
   background-color: #f4ce14;
   margin: 0;
-    padding: 0 20px;
+  padding: 0 20px;
 }
 
 
-.specials .container .row .col {
+.specials .container section.row .col {
    display: flex;
   justify-content: space-between;
   align-items: center;
-    padding: 10px 15px;
     margin: 0;
 }
 
-.specials .container .row .col .card {
-  width: 300px;
+.specials .container  section .row .col .card {
+  width: 290px;
   height: 100%;
   padding: 0px;
   margin:0px;
 }
 
-.specials .container .card .card-body {
+.specials .container section .card .card-body {
   text-align: left;
   margin: 12px 10px 0px;
 }
 
-.specials .container .card-body h4 {
+.specials .container section .card-body h4 {
     color: #424242;
   font-size: 20px;
   font-weight: 500;
@@ -203,23 +202,23 @@ background-color: #f4ce14;
   justify-content: space-between;
 }
 
-.specials .container .card-body small {
+.specials .container section .card-body small {
   font-size: 18px;
   color: red;
 }
 
-.specials .container .card-body  p {
+.specials .container section .card-body  p {
   font-size: 15px;
   text-align: left;
   color: #777777;
   margin: 0;
 }
 
-.specials .container .order-delivery {
+.specials .container section .order-delivery {
   align-items: flex-start;
 }
 
-.specials .container .order-delivery a {
+.specials .container section .order-delivery a {
   text-decoration: none;
   background-color: rgba(73, 94, 87);
   padding: 8px 15px;
@@ -232,7 +231,7 @@ background-color: #f4ce14;
   font-family: Karla;
 }
 
-.specials .container .order-delivery a:hover {
+.specials .container section .order-delivery a:hover {
   background-color: rgba(73, 94, 87, 0.9);
   color: #edefee;
 }
@@ -257,13 +256,6 @@ background-color: #f4ce14;
   text-align: center;
 }
 
-.testimonials .border {
-  width: 190px;
-  height: 5px;
-  background-color: #fbdabb;
-  margin: 20px auto;
-}
-
 .testimonials .container {
   display: flex;
   flex-direction: row;
@@ -275,12 +267,12 @@ background-color: #f4ce14;
 
 .testimonials .container .row {
   display: flex;
-  flex-wrap: wrap;
+justify-content: space-between;
 }
 
 .testimonials .container .row .col {
     padding: 0;
-    margin: auto;
+    margin: 0 6px;
 }
 
 .testimonials .container .row .col .review-card {
@@ -304,21 +296,22 @@ background-color: rgb(86,112,102,0.9);
 }
 
 .testimonials .container .row .col .card_content {
-    padding:6% 10%;
+    padding:5% 8%;
 }
 
-.testimonials section strong {
+.testimonials section h1 {
   color: #edefee;
   font-size: 18px;
   font-weight: 350;
+   padding: 0px 8px;
 }
 
 .testimonials section p {
   color: #edefee;
   text-align: left;
-  font-size: 14px;
-  font-weight: regular;
-  line-height: 22px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .testimonials .container .review-star {
@@ -343,12 +336,13 @@ background-color: rgb(86,112,102,0.9);
   padding: 20px;
 }
 
-.about-section .container .res-image {
-  margin: 0 auto;
+.about-section .container .row .col {
+  margin: 0 20px;
+  padding: 0;
 }
 
 .about-section .container .res-image img {
-   width:400px;
+  width:450px;
   border-radius: 45px 0 45px 0;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin: 0 auto;
@@ -356,8 +350,8 @@ background-color: rgb(86,112,102,0.9);
 
 .about-section .container .about-summary h1 {
   font-family: Markazi Text;
-  font-weight: 500;
-  font-size: 58px;
+  font-weight: 400;
+  font-size: 56px;
   font-weight: 400;
   line-height: 77px;
   color: #495e57;
@@ -366,7 +360,7 @@ background-color: rgb(86,112,102,0.9);
 }
 
 .about-section .container .underline {
-  width: 250px;
+  width: 200px;
   height: 5px;
   background-color: #f4ce14;
   margin-bottom: 16px;
@@ -376,16 +370,16 @@ background-color: rgb(86,112,102,0.9);
   font-family: Karla;
   font-size: 22px;
   font-weight: 400;
-  margin-top: 0;
-  padding-top: 0;
+  margin: 0;
+  padding: 0;
   color: #495e57;
 }
 
 .about-section .container .about-summary p {
   font-family: Karla;
   font-size: 18px;
-  line-height: 28px;
-  padding-right: 5px;
+  font-weight: regular;
+  line-height: 26px;
   color: #555555;
 }
 
@@ -397,21 +391,16 @@ background-color: rgb(86,112,102,0.9);
   background-color: #edefee;
 }
 
-.footer-section .container {
-  justify-content: center;
-  align-items: center;
-    padding: 30px 14%;
-}
-
 .footer-section .container .row {
-  margin: 14px 0;
+  margin: 10px 0;
 }
 
 .footer-section .container img {
   position: relative;
   top: 22px;
-  width: 80px;
-  height: 140px;
+      left: 12%;
+  width: 60px;
+  height: 100px;
 }
 
 .footer-section .container .col {
@@ -434,9 +423,14 @@ background-color: rgb(86,112,102,0.9);
 }
 
 .footer-section .col a {
+     display: flex;
+  flex-direction: column;
   text-decoration: none;
-  color: rgb(129, 129, 129);
-    font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(109, 109, 109);
+  align-items: left;
+  font-weight: 400
 }
 
 .footer-section .col a:hover {
@@ -447,7 +441,6 @@ background-color: rgb(86,112,102,0.9);
 
 .footer-section .container .social-link-icons .social-icons {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .social-icons  .icons {

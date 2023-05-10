@@ -1,18 +1,23 @@
 .Menu-tabs {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
     margin: 6% auto;
 }
 
 .Menu-tabs .container {
     width:100%;
-    justify-items: center;
+
 }
 
 .box-size {
-  width: 90%;
-  margin: 20px;
+  width: 100%;
 }
-.box-style {
+
+.tab-style {
   display: flex;
   justify-content: center;
 }
@@ -20,6 +25,9 @@
 .tablist {
   margin-top: 10px;
   border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .tabs {
@@ -28,22 +36,23 @@
   font-weight: 600;
   padding: 10px 30px;
   text-transform: uppercase;
+   padding: 16px;
+  cursor: pointer;
+    border-radius: 8px;
 }
 
-.tabs:hover {
-  cursor: pointer;
-  background-color: #E5E5E5;
+
+.tabs:focus {
+  outline: none;
 }
+
 
 .menu-box {
-margin-left: 4%;
-margin-top: 15px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
 }
-
-.TabPanel {
-  padding: 20px;
-}
-
 
 
 /* View All */
@@ -54,13 +63,15 @@ margin-top: 15px;
 
 
 .View-All-List  .container .row {
-    justify-items: center;
     gap: 6px;
+    margin: 0 auto;
+    width:85%;
 }
 
 .View-All-List  .container .row .selection-cards {
     margin-bottom: 20px;
     width: 260px;
+    
 }
 
 .View-All-List  .container .row .list-images {
@@ -87,8 +98,9 @@ display: grid;
 }
 
 .Category .container .row {
-    justify-items: center;
-    gap: 7px;
+   gap: 6px;
+    margin: 0 auto;
+    width:85%;
 }
 
 .Category  .container .row .cards {
