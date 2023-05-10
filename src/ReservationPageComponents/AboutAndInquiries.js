@@ -11,22 +11,22 @@ function AboutAndInquiries() {
                 <div className='flex-container'>
                     <div className='row'>
                         <div className='col res-bottom-list'>
-                            <Box w='100%' py={6}>
+                         
                                 <h6>About Us</h6>
                                 <a href="/">Our Story</a>
                                 <a href="/">Sustainability</a>
                                 <a href="/">Newsroom</a>
                                 <a href="/">Careers</a>
-                            </Box>
+                         
                         </div>
                         <div className='col res-bottom-list'>
-                            <Box w='100%' p={4}>
+                           
                                 <h6>FIND</h6>
                                 <a href="/">Menu</a>
                                 <a href="/">Nutritional Guide</a>
                                 <a href="/">Locations</a>
                                 <a href='/'>Little Lemon</a>
-                            </Box>
+                           
                         </div>
                         <div className='col res-bottom-list'>
                             <h6>ORDER & RESERVE</h6>
