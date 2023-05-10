@@ -2,7 +2,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import logo from './images/Logo.png'
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
-import MenuPage from './pages/MenuPage';
+//import MenuPage from './pages/MenuPage';
 import ReservationPage from './pages/ReservationPage';
 import ConfirmedBooking from './ReservationPageComponents/ConfirmedBooking'
 import OnlineOrderPage from './pages/OnlineOrderPage'
