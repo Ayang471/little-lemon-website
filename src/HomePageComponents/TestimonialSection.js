@@ -31,7 +31,7 @@ function TestimonialSection() {
                               <div><FontAwesomeIcon icon={faStar} /></div>
                           </div>
                           <CardContent className="card_content">
-                              <strong>First Last</strong>
+                              <h1>First Last</h1>
                               <p>Lorem ipsum dolor sit amet. Convallis massa in tincidunt elit aenean. Massa in congue quis id...</p>
                           </CardContent>
                       </Card>
@@ -51,7 +51,7 @@ function TestimonialSection() {
                               <div><FontAwesomeIcon icon={faStar} /></div>
                           </div>
                           <CardContent className="card_content">
-                              <strong>First Last</strong>
+                              <h1>First Last</h1>
                               <p>Lorem ipsum dolor sit amet. Convallis massa in tincidunt elit aenean. Massa in congue quis id...</p>
                           </CardContent>
                       </Card>
@@ -71,7 +71,7 @@ function TestimonialSection() {
                               <div><FontAwesomeIcon icon={faStar} /></div>
                           </div>
                           <CardContent className="card_content">
-                              <strong>First Last</strong>
+                              <h1>First Last</h1>
                               <p>Lorem ipsum dolor sit amet. Convallis massa in tincidunt elit aenean. Massa in congue quis id...</p>
                           </CardContent>
                       </Card>
@@ -92,7 +92,7 @@ function TestimonialSection() {
                               <div><FontAwesomeIcon icon={faStar} /></div>
                           </div>
                           <CardContent className="card_content">
-                              <strong>First Last</strong>
+                              <h1>First Last</h1>
                               <p>Lorem ipsum dolor sit amet. Convallis massa in tincidunt elit aenean. Massa in congue quis id...</p>
                           </CardContent>
                       </Card>
