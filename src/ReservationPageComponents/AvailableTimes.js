@@ -31,7 +31,7 @@ function AvailableTimes() {
     }
 
     const submitForm = async (formData) => {
-        const response = await fetch('./BookingFormSection/formData');
+        const response = await fetch('./BookingFormSection');
         if (response.ok) {
             navigate('./confirmation');
         } else {
