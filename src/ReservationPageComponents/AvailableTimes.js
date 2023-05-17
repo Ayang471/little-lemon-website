@@ -31,14 +31,17 @@ function AvailableTimes() {
     }
 
     const submitForm = async (formData) => {
-        const response = await fetch('./BookingFormSection/formData');
-        if (response.ok) {
-            navigate('./confirmation');
-        } else {
-            console.log(`form submission failed with status ${response.status}`);
+        try {
+            const response = await fetch('./BookingFormSection/formData');
+            if (response.ok) {
+                navigate('./confirmation');
+            } else {
+                console.log(`Form submission failed with status ${response.status}`);
+            }
+        } catch (error) {
+            console.log('An error occurred:', error);
         }
     };
-
 
     return (
         <div>
