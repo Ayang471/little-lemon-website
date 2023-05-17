@@ -120,7 +120,6 @@ function BookingFormSection({ availableTimes, submitForm, formData }) {
                                 <div className='col'>
                                     <input
                                         type="text"
-                                        //name='fname'
                                         name="first_name"
                                         id="first_name"
                                         value={fName}
