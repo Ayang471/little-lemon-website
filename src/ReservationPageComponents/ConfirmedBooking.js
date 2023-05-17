@@ -19,15 +19,7 @@ function ConfirmedBooking(formData) {
             </div>
             <div className="redirect-buttons">
                 <div>
-                    <Link
-                        className="redirect-button"
-                        to="/menu"
-                    >
-                        Browse Menu
-                    </Link>
-                </div>
-                <div>
-                    <Link className="redirect-button" to="/online-order">
+                    <Link className="redirect-button" to="/OnlineOrderPage">
                         Order TakeOut
                     </Link>
                 </div>
