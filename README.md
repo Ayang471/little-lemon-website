@@ -1,4 +1,4 @@
-Project hosted on Netlify: https://resplendent-sawine-9cbd46.netlify.app/
+Project hosted on Netlify: https://littlelemonwebsite.netlify.app/
 
 # Getting Started with Create React App
 
