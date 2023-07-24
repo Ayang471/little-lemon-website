@@ -2,7 +2,7 @@ import React from 'react'
 import footerImage from '../images/logo1.png'
 import { SocialIcon } from 'react-social-icons';
 import { Link } from 'react-router-dom'
-import { Hide, Box } from '@chakra-ui/react'
+import { Hide } from '@chakra-ui/react'
 
 function FooterSection() {
     return (
