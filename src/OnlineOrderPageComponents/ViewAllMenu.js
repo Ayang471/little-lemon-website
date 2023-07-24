@@ -8,17 +8,14 @@ import { category } from './MenuCategorySection';
 import '../styles/MenuListStyles.css'
 
 function ViewAllMenu() {
-    const handleCardClick = (category) => {
-        window.location.href = `/category/${category}`;
-    };
 
     return (
         <div className='View-All-List'>
             <div className='container'>
                 <div className='row'>
-                    {category.map(item => (
-                        <Card className='selection-cards' key={item.category} >
-                            <CardActionArea onClick={(e) => handleCardClick(item.category)}>
+                    {category.map((item, index) => (
+                        <Card className='selection-cards' key={index} >
+                            <CardActionArea >
                                 <CardMedia
                                     className='list-images'
                                     component="img"

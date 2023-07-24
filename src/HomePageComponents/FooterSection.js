@@ -11,9 +11,7 @@ function FooterSection() {
                 <div className='row'>
                     <div className='col'>
                     <Hide breakpoint='(max-width: 482px)'>
-                        <Box>
                             <Link to="/home"><img src={footerImage} alt='footer-img' /></Link>
-                        </Box>
                     </Hide>
                 </div>
                 <div className="col">
@@ -36,14 +34,14 @@ function FooterSection() {
                 <div className='col social-link-icons'>
                     <div className='col'>
                         <Hide breakpoint='(max-width: 482px)'>
-                            <Box>
+                 
                                 <p>Social Media</p>
                                 <div className='social-icons'>
                                     <SocialIcon className="icons" network="twitter" style={{ height: 24, width: 24 }} />
                                     <SocialIcon className="icons" network="instagram" style={{ height: 24, width: 24 }} />
                                     <SocialIcon className="icons" network="facebook" style={{ height: 24, width: 24 }} />
                                 </div>
-                            </Box>
+                        
                         </Hide>
                     </div>
                 </div>

@@ -57,6 +57,7 @@ border-radius: 8px;
     font-weight: 500;
     padding-left:8px;
   }
+  
 .login-form .inputField:focus {
     font-family:Karla;
     color: #495e57;
